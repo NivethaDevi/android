@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/download">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <!--Put form controls here-->
+        <TextView
+
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:text="Public Issues/Problems"
+            android:textColor="@color/white"
+            android:textSize="15pt"
+            android:textStyle="bold"
+            android:visibility="visible"></TextView>
+
+
+        <EditText
+            android:id="@+id/EditTextName34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Education"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Employment"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Health"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Electricity"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Water"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Sever"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Sanitataion"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Law and Order"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Corruption"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Roads"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Women Security"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="PUblic Ideas"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Public Information/Notices"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Local Events"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="Development Work/Projects"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+
+        <EditText
+            android:id="@+id/EditTextName49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:gravity="top|left"
+            android:hint="About (MLA/MP)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="5dip"
+            android:scrollbars="none"></EditText>
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:padding="5dip"
+            android:text="Submit"
+            android:layout_weight="0.09" />
+
+
+    </LinearLayout>
+</ScrollView>

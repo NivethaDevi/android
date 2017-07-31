@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/download"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:text="Survey"
+            android:textColor="@color/white"
+            android:textSize="15pt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="visible" />
+        <EditText
+            android:id="@+id/EditTextName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assembly/Constituency Administrator details"
+            android:inputType="textLongMessage"
+            android:padding="5dip"
+            android:background="@drawable/back"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Agent Complete Name"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Agent Mobile Number"
+            android:inputType="phone"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:hint="Agent Email"
+            android:inputType="textWebEmailAddress"
+            android:padding="5dip"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:hint="Agent Pincode"
+            android:inputType="number"
+            android:padding="5dip"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:hint="Agent Voter Id"
+            android:inputType="number"
+            android:padding="5dip"></EditText>
+        <EditText
+            android:id="@+id/EditTextName5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:hint="Enter OTP"
+            android:inputType="number"
+            android:padding="5dip"></EditText>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText5"
+            android:layout_alignRight="@+id/editText5"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:text="Request OTP"/>
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="349dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:padding="5dip"
+            android:text="Submit"
+            android:layout_height="0dp"
+            android:layout_weight="0.26" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="349dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:padding="5dip"
+            android:text="Back to Main"
+            android:layout_height="0dp"
+            android:layout_weight="0.26" />
+    </LinearLayout>
+</ScrollView>

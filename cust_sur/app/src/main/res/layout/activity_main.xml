@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:background="@drawable/download">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:scaleType="center">
+
+        <!--Put form controls here-->
+        <TextView
+
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details                                                      "
+            android:textSize="13pt"
+            android:visibility="visible"
+            android:padding="5dip"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></TextView>
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/EditTextName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Aadhar Card No.*"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Card No.*"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Booth No. / Name *"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assembly Name (code no)*"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Consttituency Name (Code no) *"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Complete Name*"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter's Father/Husband Name"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Mobile No."
+            android:inputType="phone"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Contact No."
+            android:inputType="phone"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Email ID"
+            android:inputType="textWebEmailAddress"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Facebook/Twitter/ Gplus ID"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Age of Voter (DOB)"
+            android:inputType="date"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Monthly Income"
+            android:inputType="number"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Gender of Voter"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Complete Address"
+            android:inputType="textPostalAddress"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Adress Line 1"
+            android:inputType="textPostalAddress"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Locality Name Line 2"
+            android:inputType="textPostalAddress"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Area Name Line 3"
+            android:inputType="textPostalAddress"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="District*"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="State*"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Postal Code*"
+            android:inputType="number"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Country*"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voter Address GPS Location"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="No. of Voters in Family"
+            android:inputType="number"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Education of Voter"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Occupation of Voter"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Caste of Voter"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/EditTextName33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Sub-Caste of Voter"
+            android:inputType="text"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"></EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:padding="5dip"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
